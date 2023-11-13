@@ -1,11 +1,11 @@
 services:
   # A Docker web service
   - type: web
-    name: JISSHU_BOT
+    name: Txt2
     env: python
     startCommand: python3 bot.py
     buildCommand: pip install -r requirements.txt
-    repo: https://github.com/Jisshubot/JISSHU_BOT.git # optional
+    repo: https://github.com/Candypop678/Txt2.git # optional
     region: oregon # optional (defaults to oregon)
     plan: free # optional (defaults to starter)
     branch: JISSHU # optional (defaults to master)
